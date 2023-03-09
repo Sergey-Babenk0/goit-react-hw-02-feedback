@@ -73,6 +73,9 @@ class App extends Component {
     const keys = Object.keys(this.state);
     return (
       <div>
+        <div>
+          <Feedback />
+        </div>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={keys}
